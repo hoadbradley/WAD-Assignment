@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title> ReviewYourJourney.com </title>	
+		
+		<link href="styles.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+	<header>
+		<img src="train.png" alt="train"/>
+		www.ReviewYourJourney.com <br>
+		<a href="Page_1.html">Home</a>
+		<a href="Page_2.html">Signup</a>
+		<a href="Page_3.php">Find</a>
+		<a href="Page_4.html">About</a>
+		<a href="Page_5.php">Login</a>
+	</header>
+	<main>
+	<div id="center">
+		<form action="login.php" method="POST">
+		  Email address: <input type="text" name="Email" required> Password: <input type="text" name="Password" required> <input type="submit" value="Signin">
+		
+		</form>
+	</div>
+
+</main>
+
+
+	<br>
+	<br>
+
+	<footer>
+		<img width="40" height="40" src="phone.png" alt= "phone"/>Contact Us: 01482 123456 <img width="40" height="40" src="mail.png" alt="mail"/>Example@example.com <img width="40" height="40" src="address.png" alt="Address" />East Yorkshire, HU5 5AS
+	</footer>	
+
+
+	</body>
+	
+	
+
+
+
+
+
+</html>
